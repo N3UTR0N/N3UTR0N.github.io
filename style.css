@@ -154,7 +154,5 @@ a:hover {
     #check:checked ~ .eunjang {
         display: none;
     }
-    #check:checked ~ {
-        display: none;
-    }
+   
 }
