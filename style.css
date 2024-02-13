@@ -78,7 +78,7 @@ top: 50%;
 }
 .navbar ul {
     float: right;
-    font-size: 15px;
+    font-size: 5px;
     
 }
 .navbar ul li {
@@ -93,11 +93,14 @@ top: 50%;
     font-size: 17px;
     border-radius: 3px;
     text-transform: uppercase;
+    
+   
 }
 a:hover {
     background: white;
     transition: .5s;
     border-radius: 20px;
+    background-size: 30px;
     
 }
 #checkbtn,#check {
@@ -113,3 +116,45 @@ a:hover {
     display: none;
 }
 
+@media (max-width:860px){
+    .eunjang {
+        width: 90px;
+    }
+    .navbar {
+        width: 100px;
+      
+    }
+    .navbarDark {
+     width: 100px;
+    }
+
+    ul {
+        width: 100px;
+        display: flex;
+        justify-content: space-around;
+        margin-left: 80px;
+        transition: .5s;
+        text-align: center;
+    }
+    .navbar ul li a {
+        font-size: 20px;
+        display:inline-block;
+        flex-direction: row-reverse;
+        font-size: 15px;
+        line-height: 15px;
+        margin-left: 160px;
+        
+    }
+    #checkbtn,#check {
+        margin-right: 40px;
+    }
+    #check:checked ~ ul {
+        display:none;
+    }
+    #check:checked ~ .eunjang {
+        display: none;
+    }
+    #check:checked ~ {
+        display: none;
+    }
+}
