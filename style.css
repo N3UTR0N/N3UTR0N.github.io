@@ -29,7 +29,9 @@
     transform: translate(-50%, -50%);
     color: white;
 }
-
+.card-text {
+    font-size: 13px;
+}
 /* services section css */
 .servicesText.card {
     height: 280px;
@@ -83,8 +85,8 @@ left: 400px;
 }
 
 #footer {
-padding-left: 50%;
-top: 50%;
+padding-left: 30%;
+top: 90%;
 }
 
 .nav-link {
@@ -136,9 +138,7 @@ a:hover {
 
 
 @media (max-width:860px){
-    .hero_desc,.hero_title {
-        margin-left:200px
-    }
+    
     .eunjang {
         width: 90px;
         margin-left:10px;
@@ -186,13 +186,13 @@ a:hover {
 
     
     .form {
-        margin-left: 100px;
-        width: 500px;
+        margin-left: 10px;
+        width: 250px;
     }
     #kontak {
         position: relative;
         display: flex;
-        margin-left: 100px;
+        margin-left: 80px;
     }
     .portfolioContent{
      left: 3px;
