@@ -8,9 +8,15 @@
     
 }
 
+
+
+
 .eunjang {
     width: 130px;
 }
+
+
+
 
 /* text css above hero image*/
 .hero_title {
@@ -18,9 +24,16 @@
     color: aliceblue;
     
 }
+
+
+
 .hero_desc {
     font-size: 2rem;
 }
+
+
+
+
 .hero-text {
     text-align: center;
     position: absolute;
@@ -29,43 +42,77 @@
     transform: translate(-50%, -50%);
     color: white;
 }
+
+
+
+
+
 .card-text {
     font-size: 13px;
 }
+
+
+
 /* services section css */
 .servicesText.card {
     height: 280px;
     cursor: pointer;
   }
+
+
+
 .servicesIcon {
     font-size: 36px;
     text-align: center;
     width: 100%;
 }
+
+
+
 .card-title {
     text-align: center;
 }
+
+
+
 .form {
     margin-left: 500px;
     width: 500px;
 }
+
+
+
 #kontak {
     position: relative;
     display: flex;
     margin-left: 500px;
 }
+
+
+
 .portfolioContent{
 left: 400px;
 }
+
+
+
 .card:hover .servicesIcon {
     color: #008000;
 }
+
+
+
 .servicesText:hover {
     border: 1px solid #008000;
 }
+
+
+
 .bio ul li {
     list-style-type: none;
 }
+
+
 
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
@@ -74,20 +121,28 @@ left: 400px;
     position: absolute;
 }
 
+
+
 /* spacing on all sections */
 #about, #services, #portfolio, #contact, #footer {
     padding-top: 4.5rem;
     font-size: 15px;
     background-color: darksalmon;
 }
+
+
+
 #contact {
     padding-bottom: 4rem;
 }
+
+
 
 #footer {
 padding-left: 30%;
 top: 90%;
 }
+
 
 .nav-link {
     position: relative;
@@ -96,17 +151,25 @@ top: 90%;
     font-size: larger;
 
 }
+
+
 .navbar ul {
     float: right;
     font-size: 5px;
     
 }
+
+
+
 .navbar ul li {
     display: inline-block;
     margin-right: 0 5px;
     line-height: 50px;
     
 }
+
+
+
 .navbar ul li a {
     color: aliceblue;
     right:150px;
@@ -116,6 +179,9 @@ top: 90%;
     
    
 }
+
+
+
 a:hover {
     background: white;
     transition: .5s;
@@ -123,6 +189,9 @@ a:hover {
     background-size: 30px;
     
 }
+
+
+
 #checkbtn,#check {
     color: white;
     font-size: 35px;
@@ -132,12 +201,15 @@ a:hover {
     cursor: pointer;
     display: none;
 }
+
+
+
 #check {
     display: none;
 }
 
 
-@media (max-width:860px){
+@media (max-width:660px){
     
     .eunjang {
         width: 90px;
