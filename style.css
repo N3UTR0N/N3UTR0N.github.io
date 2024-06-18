@@ -3,7 +3,7 @@
 .bgimage {
     height:100vh;
   background-color: darksalmon;
-    background-size:cover;
+    background-size: auto;
     position:relative;
     
 }
@@ -213,42 +213,42 @@ a:hover {
     
     .eunjang {
         width: 90px;
-        margin-left:10px;
+        margin-left:20px;
+        margin-bottom: 40%;
     }
     .navbar {
         width: 100px;
+        
     }
     .navbarDark {
-     width: 100px;
+    position: fixed;
+     width: 300px;
+     height: 120px;
      align-items: center;
-     justify-content: space-between;
-     display: flex;
+     justify-content: space-around;
+     display: block;
     }
 
     .navbar ul {
-        width: 100px;
-        display: flex;
-        justify-content: space-around;
-        margin-left: 80px;
+        position: relative;
+        display: block;
+        justify-content: space-between;
+        margin-right: 200px;
         transition: .5s;
         font-family: monospace;
         
     }
     .navbar ul li a {
         font-size: 20px;
-        display:inline-block;
-        flex-direction: row-reverse;
+        float: left;
         font-size: 15px;
         line-height: 15px;
-        margin-left: 160px;
-       
+        margin-left: 260px;
+        bottom: 200px;
+        justify-content: center;
+        align-items: center;
     }
-    #checkbtn {
-        margin-right: 40px;
-        display: flex;
-        margin: 30px;
-        
-    }
+    
     #check:checked ~ ul {
         display:none;
     }
@@ -267,6 +267,12 @@ a:hover {
         margin-left: 80px;
     }
     .portfolioContent{
-     left: 3px;
+     left: 20px;
+    }
+    .navs {
+        left: 100px;
+        position: relative;
+        display: flex;
+        bottom: 100px;
     }
 }
