@@ -3,9 +3,9 @@
 .bgimage {
     height:100vh;
   background-color: darksalmon;
-    background-size: contain;
+    background-size: cover;
     position:relative;
-    max-width: 2500px;
+    
 }
 
 
@@ -228,12 +228,12 @@ a:hover {
         
     }
     .navbarDark {
-    position: static;
-     width: 500px;
-     height: 100px;
+    position: fixed;
+     width: 300px;
+     height: 200px;
      display: inline-flex;
      box-sizing: border-box;
-     max-width: fit-content;
+     width: fit-content;
     }
 
     .navbar ul {
