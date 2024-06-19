@@ -5,6 +5,7 @@
   background-color: darksalmon;
     background-size: cover;
     position:relative;
+    width: 500px;
     
 }
 
@@ -290,7 +291,7 @@ a:hover {
         }
         .navbarDark {
         position: static;
-         width: 281px;
+         width: 500px;
          height: 130px;
          display: inline-flex;
          box-sizing: border-box;
@@ -310,8 +311,8 @@ a:hover {
             float: right;
             font-size: 15px;
             line-height: 15px;
-            margin-left: 260px;
-            bottom: 180px;
+            margin-left: 310px;
+            bottom: 260px;
             justify-content: left;
             align-items: center;
            
