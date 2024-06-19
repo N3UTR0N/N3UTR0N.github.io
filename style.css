@@ -6,7 +6,6 @@
     background-size: cover;
     position:relative;
     width: 500px;
-    
 }
 
 
@@ -77,8 +76,8 @@
 
 
 .form {
-    margin-left: 500px;
-    width: 500px;
+    margin-left: 100px;
+    width: 300px;
 }
 
 
@@ -92,7 +91,8 @@
 
 
 .portfolioContent{
-left: 400px;
+width: 450px;
+
 }
 
 
@@ -129,6 +129,8 @@ left: 400px;
     padding-top: 4.5rem;
     font-size: 15px;
     background-color: darksalmon;
+    width: 500px;
+    background-size: auto;
 }
 
 
@@ -224,7 +226,7 @@ a:hover {
     }
     .navbarDark {
     position: static;
-     width: 488px;
+     width: 500px;
      height: 100px;
      display: inline-flex;
      box-sizing: border-box;
