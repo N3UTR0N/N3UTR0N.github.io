@@ -5,7 +5,7 @@
   background-color: darksalmon;
     background-size: cover;
     position:relative;
-    
+    max-width: 500px;
 }
 
 
@@ -130,7 +130,7 @@ left: 420px;
     padding-top: 4.5rem;
     font-size: 15px;
     background-color: darksalmon;
-    max-width: 2500px;
+    max-width: 500px;
     background-size: cover;
 }
 
@@ -359,10 +359,10 @@ a:hover {
             font-size: 100px;
         }
         .bgimage {
-            width: 550px;
+            width: 500px;
         }
         #about, #services, #portfolio, #contact, #footer {
-            width: 550px;
+            width: 500px;
             }
 }
 }
