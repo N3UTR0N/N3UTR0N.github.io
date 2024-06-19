@@ -283,10 +283,10 @@ a:hover {
         bottom: 69px;
     }
     .bgimage {
-        width: auto;
+        width: 800px;
     }
     #about, #services, #portfolio, #contact, #footer {
-        width:auto;
+        width:800px;
         }
 
     
