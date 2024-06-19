@@ -3,7 +3,7 @@
 .bgimage {
     height:100vh;
   background-color: darksalmon;
-    background-size: contain;
+    background-size: cover;
     position:relative;
     max-width: 2500px;
 }
@@ -131,7 +131,7 @@ left: 420px;
     font-size: 15px;
     background-color: darksalmon;
     max-width: 2500px;
-    background-size: auto;
+    background-size: cover;
 }
 
 
@@ -230,7 +230,7 @@ a:hover {
     .navbarDark {
     position: fixed;
      width: 500px;
-     height: 200px;
+     height: 100px;
      display: inline-flex;
      box-sizing: border-box;
      width: fit-content;
@@ -250,7 +250,7 @@ a:hover {
         font-size: 15px;
         line-height: 15px;
         margin-left: 300px;
-        bottom: 280px;
+        bottom: 355px;
         justify-content: left;
         align-items: center;
        
@@ -294,11 +294,11 @@ a:hover {
        
         .eunjang {
             width: 90px;
-            margin-left:20px;
-            margin-bottom: 40%;
+            bottom: 40%;
+            align-items: center;
         }
         .navbar {
-            width: 900%;
+            width: 90%;
             max-width: fit-content;
             
         }
@@ -359,10 +359,10 @@ a:hover {
             font-size: 100px;
         }
         .bgimage {
-            width: 675px;
+            width: 500px;
         }
         #about, #services, #portfolio, #contact, #footer {
-            width: 675px;
+            width: 500px;
             }
 }
 }
