@@ -5,7 +5,7 @@
   background-color: darksalmon;
     background-size: cover;
     position:relative;
-    width: 500px;
+    max-width: 2500px;
 }
 
 
@@ -76,7 +76,7 @@
 
 
 .form {
-    margin-left: 100px;
+    margin-left: 600px;
     width: 300px;
 }
 
@@ -85,13 +85,14 @@
 #kontak {
     position: relative;
     display: flex;
-    margin-left: 500px;
+    margin-left: 200px;
 }
 
 
 
 .portfolioContent{
 width: 450px;
+left: 420px;
 
 }
 
@@ -129,7 +130,7 @@ width: 450px;
     padding-top: 4.5rem;
     font-size: 15px;
     background-color: darksalmon;
-    width: 500px;
+    max-width: 2500px;
     background-size: auto;
 }
 
@@ -142,7 +143,7 @@ width: 450px;
 
 
 #footer {
-padding-left: 30%;
+padding-left: 20%;
 top: 90%;
 }
 
