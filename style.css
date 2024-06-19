@@ -359,10 +359,10 @@ a:hover {
             font-size: 100px;
         }
         .bgimage {
-            width: 600px;
+            width: 550px;
         }
         #about, #services, #portfolio, #contact, #footer {
-            width: 600px;
+            width: 550px;
             }
 }
 }
