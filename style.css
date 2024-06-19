@@ -283,10 +283,10 @@ a:hover {
         bottom: 69px;
     }
     .bgimage {
-        width: 675px;
+        width: 800px;
     }
     #about, #services, #portfolio, #contact, #footer {
-        width:675px;
+        width:800px;
         }
 
     
@@ -305,10 +305,10 @@ a:hover {
         .navbarDark {
         position: static;
          width: 500px;
-         height: 130px;
+         height: 150px;
          display: inline-flex;
          box-sizing: border-box;
-         max-width: fit-content;
+         max-width: auto;
         }
     
         .navbar ul {
@@ -359,10 +359,10 @@ a:hover {
             font-size: 100px;
         }
         .bgimage {
-            width: 500px;
+            width: 600px;
         }
         #about, #services, #portfolio, #contact, #footer {
-            width: 500px;
+            width: 600px;
             }
 }
 }
