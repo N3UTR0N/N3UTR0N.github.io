@@ -3,7 +3,7 @@
 .bgimage {
     height:100vh;
   background-color: darksalmon;
-    background-size: auto;
+    background-size: cover;
     position:relative;
     
 }
@@ -209,7 +209,7 @@ a:hover {
 }
 
 
-@media (max-width:660px){
+@media (max-width:860px){
     
     .eunjang {
         width: 90px;
@@ -217,36 +217,37 @@ a:hover {
         margin-bottom: 40%;
     }
     .navbar {
-        width: 100px;
+        width: 200px;
+        max-width: fit-content;
         
     }
     .navbarDark {
-    position: fixed;
-     width: 300px;
-     height: 120px;
-     align-items: center;
-     justify-content: space-around;
-     display: block;
+    position: static;
+     width: 488px;
+     height: 100px;
+     display: inline-flex;
+     box-sizing: border-box;
+     max-width: fit-content;
     }
 
     .navbar ul {
         position: relative;
-        display: block;
+        display: inline;
         justify-content: space-between;
-        margin-right: 200px;
-        transition: .5s;
+        margin-right: 300px;
         font-family: monospace;
         
     }
     .navbar ul li a {
         font-size: 20px;
-        float: left;
+        float: right;
         font-size: 15px;
         line-height: 15px;
-        margin-left: 260px;
-        bottom: 200px;
-        justify-content: center;
+        margin-left: 300px;
+        bottom: 280px;
+        justify-content: left;
         align-items: center;
+       
     }
     
     #check:checked ~ ul {
@@ -273,6 +274,75 @@ a:hover {
         left: 100px;
         position: relative;
         display: flex;
-        bottom: 100px;
+        bottom: 69px;
+    }
+    @media (max-width:360px){
+       
+        .eunjang {
+            width: 90px;
+            margin-left:20px;
+            margin-bottom: 40%;
+        }
+        .navbar {
+            width: 900%;
+            max-width: fit-content;
+            
+        }
+        .navbarDark {
+        position: static;
+         width: 281px;
+         height: 130px;
+         display: inline-flex;
+         box-sizing: border-box;
+         max-width: fit-content;
+        }
+    
+        .navbar ul {
+            position: relative;
+            display: inline;
+            justify-content: space-between;
+            margin-right: 200px;
+            font-family: monospace;
+            
+        }
+        .navbar ul li a {
+            font-size: 20px;
+            float: right;
+            font-size: 15px;
+            line-height: 15px;
+            margin-left: 260px;
+            bottom: 180px;
+            justify-content: left;
+            align-items: center;
+           
+        }
+        
+        #check:checked ~ ul {
+            display:none;
+        }
+        #check:checked ~ .eunjang {
+            display: none;
+        }
+    
+        
+        .form {
+            margin-left: 10px;
+            width: 250px;
+        }
+        #kontak {
+            position: relative;
+            display: flex;
+            margin-left: 80px;
+        }
+        .portfolioContent{
+         left: 20px;
+        }
+        .navs {
+            left: 80px;
+            position: relative;
+            display: flex;
+            bottom:68px;
+            font-size: 100px;
+        }
     }
 }
