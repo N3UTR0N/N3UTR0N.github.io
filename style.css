@@ -3,9 +3,9 @@
 .bgimage {
     height:100vh;
   background-color: darksalmon;
-    background-size: cover;
+    background-size: contain;
     position:relative;
-    
+    max-width: 2500px;
 }
 
 
@@ -229,7 +229,7 @@ a:hover {
     }
     .navbarDark {
     position: fixed;
-     width: 300px;
+     width: 500px;
      height: 200px;
      display: inline-flex;
      box-sizing: border-box;
@@ -283,10 +283,10 @@ a:hover {
         bottom: 69px;
     }
     .bgimage {
-        width: 500px;
+        width: 675px;
     }
     #about, #services, #portfolio, #contact, #footer {
-        width:500px;
+        width:675px;
         }
 
     
@@ -359,10 +359,10 @@ a:hover {
             font-size: 100px;
         }
         .bgimage {
-            width: 500px;
+            width: 675px;
         }
         #about, #services, #portfolio, #contact, #footer {
-            width: 500px;
+            width: 675px;
             }
 }
 }
