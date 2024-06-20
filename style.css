@@ -183,21 +183,27 @@ color: aliceblue;
 
 
 .navbar ul li {
-    display: inline-block;
-    margin-right: 0 5px;
-    line-height: 50px;
+    display: flex;
+    right: 30px;
+    line-height: 40px;
     color: aliceblue;
+    margin: 3px;
+    padding: 10px;
+    float: left;
+    justify-content: center;
+    align-items: center;
 }
 
 
 
 .navbar ul li a {
     color: rgb(255, 245, 245);
-    right:150px;
+    right:30px;
     font-size: 17px;
     border-radius: 3px;
     text-transform: uppercase;
     animation: glow 1s ease-in-out infinite alternate;
+    margin-left: 0 3px;
 }
 
 @keyframes glow {
@@ -244,45 +250,51 @@ a:hover {
 
 @media (max-width:860px){
     
-    .eunjang {
-        width: 90px;
-        margin-left:20px;
-        margin-bottom: 40%;
-    }
+   
     .navbar {
         width: 200px;
-        max-width: fit-content;
+      
         
     }
-    .navbarDark {
-    position: fixed;
-     width: 500px;
-     height: 100px;
-     display: inline-flex;
-     box-sizing: border-box;
-     width: fit-content;
-    }
-
-    .navbar ul {
-        position: relative;
-        display: inline;
-        justify-content: space-between;
-        margin-right: 300px;
-        font-family: monospace;
-        
-    }
-    .navbar ul li a {
-        font-size: 20px;
+    .navs {
         float: right;
-        font-size: 15px;
-        line-height: 15px;
-        margin-left: 300px;
-        bottom: 355px;
-        justify-content: left;
-        align-items: center;
-       
+        left: 155px;
     }
     
+    .navbar ul {
+        float: right;
+        font-size: 5px;
+        margin-right: 50px;
+        
+        
+    }
+    
+    
+    
+    .navbar ul li {
+        display: flex;
+        right: 3px;
+        line-height: 40px;
+        color: aliceblue;
+        margin: 3px;
+        padding: 10px;
+        float: left;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    
+    .navbar ul li a {
+        color: rgb(255, 245, 245);
+        left:163px;
+        font-size: 17px;
+        border-radius: 3px;
+        text-transform: uppercase;
+        animation: glow 1s ease-in-out infinite alternate;
+        margin-left: 0 3px;
+        display: flex;
+    }
     #check:checked ~ ul {
         display:none;
     }
@@ -292,21 +304,42 @@ a:hover {
 
     
     .form {
-        margin-left: 10px;
+       position: absolute;
+        height: 220px;
+    }
+    #contact {
+        height: 850px;
+    }
+    #services {
+        background-image: url('https://korean-binge.com/wp-content/uploads/2023/08/2023-boyhood-coupangplay-1-1.jpeg');
+        background-position: top;
+        background-size: 200px;
+        width: 500px;
+        height: 800px;
+    }
+    #boxtobox {
         width: 250px;
+        display: inline-block;
+        justify-content: center;
+       vertical-align: middle;
     }
-    #kontak {
-        position: relative;
-        display: flex;
-        margin-left: 80px;
+  .portfolioContent {
+    top: 300px;
+  }
+    #portfolio{
+       top: 400px;
+        height: 900px;
+        width: 500px;
+        background-repeat: no-repeat;
     }
-    .portfolioContent{
-     left: 20px;
+    #texi {
+        text-align: center;
+        margin-right: 50px;
     }
-    .navs {
-        left: 100px;
-        position: relative;
-        display: flex;
+    .navy {
+        right: 30px;
+        position: fixed;
+        display: inline-block;
         bottom: 69px;
     }
     .bgimage {
@@ -315,28 +348,21 @@ a:hover {
     #about, #services, #portfolio, #contact, #footer {
         width:800px;
         }
-
+#hihi {
+    height: 340px;
+    font-size: small;
+}
     
     @media (max-width:360px){
        
-        .eunjang {
-            width: 90px;
-            bottom: 40%;
-            align-items: center;
+        
         }
         .navbar {
             width: 90%;
             max-width: fit-content;
             
         }
-        .navbarDark {
-        position: static;
-         width: 500px;
-         height: 150px;
-         display: inline-flex;
-         box-sizing: border-box;
-         max-width: auto;
-        }
+       
     
         .navbar ul {
             position: relative;
@@ -346,24 +372,25 @@ a:hover {
             font-family: monospace;
             
         }
+        .navbar ul li {
+            display: flex;
+            align-items: center;
+        }
         .navbar ul li a {
             font-size: 20px;
             float: right;
             font-size: 15px;
-            line-height: 15px;
-            margin-left: 310px;
-            bottom: 260px;
-            justify-content: left;
-            align-items: center;
+            line-height: 1px;
+           
+            top: 60px;
+            
            
         }
         
         #check:checked ~ ul {
             display:none;
         }
-        #check:checked ~ .eunjang {
-            display: none;
-        }
+       
     
         
         .form {
@@ -391,5 +418,4 @@ a:hover {
         #about, #services, #portfolio, #contact, #footer {
             width: 500px;
             }
-}
 }
