@@ -2,18 +2,16 @@
 /* hero background image */
 .bgimage {
     height:100vh;
-  background-color: darksalmon;
+   background-color: darksalmon;
     background-size: cover;
     position:relative;
     max-width: 2000px;
+    background-image: url('https://0.soompi.io/wp-content/uploads/2023/10/19041815/nam-joo-hyuk-vigilante-2.jpeg');
 }
 
 
 
 
-.eunjang {
-    width: 130px;
-}
 
 
 
@@ -85,7 +83,7 @@
 #kontak {
     position: relative;
     display: flex;
-    margin-left: 200px;
+    margin-left: 700px;
 }
 
 
@@ -93,9 +91,13 @@
 .portfolioContent{
 width: 450px;
 left: 420px;
+background-image: url('http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcQwg4a4_pDA0ohfXEpu8jJS8D8WTtKYDT8mr8ierT88HNY90wmHeaOEV2iCC9FUgYAkUZ41yEWErrEM8TF8HDo');
+color: aliceblue;
 
 }
-
+.texy {
+    padding-bottom: 100px;
+}
 
 
 .card:hover .servicesIcon {
@@ -118,9 +120,9 @@ left: 420px;
 
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
-    background-color: rgb(0, 0, 0);
     display:flex; 
     position: absolute;
+    background-color: transparent;
 }
 
 
@@ -129,26 +131,38 @@ left: 420px;
 #about, #services, #portfolio, #contact, #footer {
     padding-top: 4.5rem;
     font-size: 15px;
-    background-color: darksalmon;
     max-width: 2000px;
     background-size: cover;
+    
 }
 
-
+#about {
+    background-image: url('https://wallpapercave.com/wp/wp5850454.jpg');
+    color: rgb(255, 255, 255);
+    height: 100vh;
+    max-width: 2000px;
+}
 
 #contact {
     padding-bottom: 4rem;
+    background-image: url('https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/150/2024/05/07/byeon-woo-seok-kim-hye-yoon-1873435881.jpeg');
+    color: aliceblue;
 }
 
-.test{
-
+#portfolio {
+    background-image: url('https://i.pinimg.com/originals/2d/d3/69/2dd369bfcab0e2b1d2c25b230fcc18e2.jpg');
+    height: 90vh;
+    color: aliceblue;
+}
+#services {
+    background-image: url('https://korean-binge.com/wp-content/uploads/2023/08/2023-boyhood-coupangplay-1-1.jpeg');
+    height: 115vh;
+    
 }
 
-#footer {
-padding-left: 20%;
-top: 90%;
+.oi {
+    color: aliceblue;
 }
-
 
 .nav-link {
     position: relative;
@@ -163,6 +177,7 @@ top: 90%;
     float: right;
     font-size: 5px;
     
+    
 }
 
 
@@ -171,28 +186,40 @@ top: 90%;
     display: inline-block;
     margin-right: 0 5px;
     line-height: 50px;
-    
+    color: aliceblue;
 }
 
 
 
 .navbar ul li a {
-    color: aliceblue;
+    color: rgb(255, 245, 245);
     right:150px;
     font-size: 17px;
     border-radius: 3px;
     text-transform: uppercase;
-    
-   
+    animation: glow 1s ease-in-out infinite alternate;
 }
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0e5d7c, 0 0 40px #78ea9e, 0 0 50px #0cd8fc, 0 0 60px #f12e0c, 0 0 70px #2d0096;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #3a9a77, 0 0 40px #1591a6, 0 0 50px #1e18e4, 0 0 60px #02587f, 0 0 70px #13e2ed, 0 0 80px #280517;
+  }
+}
+   
+
 
 
 
 a:hover {
-    background: white;
-    transition: .5s;
-    border-radius: 20px;
+    background: rgb(0, 0, 0);
+    transition: .2s;
+    border-radius: 50px;
     background-size: 30px;
+    font-family:monospace;
     
 }
 
