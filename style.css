@@ -7,6 +7,7 @@
     background-image: url('https://0.soompi.io/wp-content/uploads/2023/10/19041815/nam-joo-hyuk-vigilante-2.jpeg');
     background-repeat: repeat;
     background-attachment: scroll;
+  
 }
 
 
@@ -18,7 +19,7 @@
 
 /* text css above hero image*/
 .hero_title {
-    font-size: 4.5rem;
+    font-size: 10.5rem;
     color: aliceblue;
     
 }
@@ -27,6 +28,7 @@
 
 .hero_desc {
     font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
@@ -144,11 +146,12 @@ a:hover {
 }
 
 
-@media (max-width:860px){
+@media (max-width:1245px){
     
    
     .navbar {
         width: 200px;
+        
       
         
     }
@@ -207,7 +210,7 @@ a:hover {
     }
   
     
-    @media (max-width:1245px){
+    @media (max-width:600px){
        
         
         }
@@ -249,29 +252,69 @@ a:hover {
         
        
         .bgimage {
-            width: 700px;
-           background-repeat: no-repeat;
+            width: 900px;
+           background-repeat: repeat;
+           box-sizing: border-box;
             
         }
-        @media (max-width:636px){
+        .hero_title {
+            font-size: 1px;
+            color: aliceblue;
+            
+        }
+        
+        
+        
+        .hero_desc {
+            font-size: 2rem;
+        }
+        
+        
+        
+        
+        .hero-text {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+        }
+        
+        
+        
+        
+        
+        .card-text {
+            font-size: 13px;
+        }
+        
+        
+        
+    
+        @media (max-width:640px){
             .bgimage {
-             width: 900px;
+             width:480px;
              background-repeat: repeat;
+             height: 870px;
+             background-position: bottom;
+             
             }
             .hero_title {
-                font-size: 1.5rem;
+                font-size: 15rem;
                 color: aliceblue;
                margin-top: 200px;
-               padding-left: 50px;
+               padding-left: 135px;
             }
             
             
             
             .hero_desc {
-                font-size: 0 1rem;
+                font-size: 2.5rem;
                 width: 2px;
-                margin-right: 130px;
-                display: inline-flex;
+                padding-left: 260px;
+                display: flex;
+                margin-bottom: 190px;
             }
             .navbar ul {
                 float: right;
@@ -292,25 +335,30 @@ a:hover {
                 float: left;
                 justify-content: center;
                 align-items: center;
+                font-size: 30px;
             }
             
             
             
             .navbar ul li a {
                 color: rgb(255, 245, 245);
-                right:30px;
-                font-size: 17px;
+                right:35px;
+                font-size:15px;
                 border-radius: 3px;
                 text-transform: uppercase;
                 animation: glow 1s;
-                margin-left: 0 3px;
+                margin-left: 3px;
                 top: -1px;
+                width: 70px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
             }
             
             
             
             
             
+            
         }
-        
-}
+    }
