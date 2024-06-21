@@ -1,11 +1,10 @@
 
 /* hero background image */
 .bgimage {
-    height:100vh;
+    height:150vh;
    background-color: darksalmon;
-    background-size: cover;
     position:relative;
-    max-width: 2000px;
+   display: flex;
     background-image: url('https://0.soompi.io/wp-content/uploads/2023/10/19041815/nam-joo-hyuk-vigilante-2.jpeg');
 }
 
@@ -52,65 +51,6 @@
 
 
 /* services section css */
-.servicesText.card {
-    height: 280px;
-    cursor: pointer;
-  }
-
-
-
-.servicesIcon {
-    font-size: 36px;
-    text-align: center;
-    width: 100%;
-}
-
-
-
-.card-title {
-    text-align: center;
-}
-
-
-
-.form {
-    margin-left: 600px;
-    width: 300px;
-}
-
-
-
-#kontak {
-    position: relative;
-    display: flex;
-    margin-left: 700px;
-}
-
-
-
-.portfolioContent{
-width: 450px;
-left: 420px;
-background-image: url('http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcQwg4a4_pDA0ohfXEpu8jJS8D8WTtKYDT8mr8ierT88HNY90wmHeaOEV2iCC9FUgYAkUZ41yEWErrEM8TF8HDo');
-color: aliceblue;
-
-}
-.texy {
-    padding-bottom: 100px;
-}
-
-
-.card:hover .servicesIcon {
-    color: #008000;
-}
-
-
-
-.servicesText:hover {
-    border: 1px solid #008000;
-}
-
-
 
 .bio ul li {
     list-style-type: none;
@@ -127,42 +67,6 @@ color: aliceblue;
 
 
 
-/* spacing on all sections */
-#about, #services, #portfolio, #contact, #footer {
-    padding-top: 4.5rem;
-    font-size: 15px;
-    max-width: 2000px;
-    background-size: cover;
-    
-}
-
-#about {
-    background-image: url('https://wallpapercave.com/wp/wp5850454.jpg');
-    color: rgb(255, 255, 255);
-    height: 100vh;
-    max-width: 2000px;
-}
-
-#contact {
-    padding-bottom: 4rem;
-    background-image: url('https://static.promediateknologi.id/crop/0x0:0x0/0x0/webp/photo/p2/150/2024/05/07/byeon-woo-seok-kim-hye-yoon-1873435881.jpeg');
-    color: aliceblue;
-}
-
-#portfolio {
-    background-image: url('https://i.pinimg.com/originals/2d/d3/69/2dd369bfcab0e2b1d2c25b230fcc18e2.jpg');
-    height: 90vh;
-    color: aliceblue;
-}
-#services {
-    background-image: url('https://korean-binge.com/wp-content/uploads/2023/08/2023-boyhood-coupangplay-1-1.jpeg');
-    height: 115vh;
-    
-}
-
-.oi {
-    color: aliceblue;
-}
 
 .nav-link {
     position: relative;
@@ -256,10 +160,7 @@ a:hover {
       
         
     }
-    .navs {
-        float: right;
-        left: 155px;
-    }
+
     
     .navbar ul {
         float: right;
@@ -303,55 +204,13 @@ a:hover {
     }
 
     
-    .form {
-       position: absolute;
-        height: 220px;
-    }
-    #contact {
-        height: 850px;
-    }
-    #services {
-        background-image: url('https://korean-binge.com/wp-content/uploads/2023/08/2023-boyhood-coupangplay-1-1.jpeg');
-        background-position: top;
-        background-size: 200px;
-        width: 500px;
-        height: 800px;
-    }
-    #boxtobox {
-        width: 250px;
-        display: inline-block;
-        justify-content: center;
-       vertical-align: middle;
-    }
-  .portfolioContent {
-    top: 300px;
-  }
-    #portfolio{
-       top: 400px;
-        height: 900px;
-        width: 500px;
-        background-repeat: no-repeat;
-    }
-    #texi {
-        text-align: center;
-        margin-right: 50px;
-    }
-    .navy {
-        right: 30px;
-        position: fixed;
-        display: inline-block;
-        bottom: 69px;
-    }
+   
     .bgimage {
-        width: 800px;
+        background-repeat: no-repeat;
+        width: 900px;
+        background-position: center;
     }
-    #about, #services, #portfolio, #contact, #footer {
-        width:800px;
-        }
-#hihi {
-    height: 340px;
-    font-size: small;
-}
+  
     
     @media (max-width:360px){
        
@@ -393,29 +252,11 @@ a:hover {
        
     
         
-        .form {
-            margin-left: 10px;
-            width: 250px;
-        }
-        #kontak {
-            position: relative;
-            display: flex;
-            margin-left: 80px;
-        }
-        .portfolioContent{
-         left: 20px;
-        }
-        .navs {
-            left: 80px;
-            position: relative;
-            display: flex;
-            bottom:68px;
-            font-size: 100px;
-        }
+       
         .bgimage {
-            width: 500px;
+            
+           background-repeat: no-repeat;
+            
         }
-        #about, #services, #portfolio, #contact, #footer {
-            width: 500px;
-            }
+        
 }
