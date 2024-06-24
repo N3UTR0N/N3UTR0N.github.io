@@ -187,7 +187,7 @@ a:hover {
     
     .navbar ul li a {
         color: rgb(255, 245, 245);
-        left:663px;
+        left:623px;
         font-size: 17px;
         border-radius: 3px;
         text-transform: uppercase;
@@ -316,6 +316,11 @@ animation-direction: unset;
     
     
 }
+@media (min-width:392px){
+
+    
+}
+
 @media (min-width:992px){
     
     .navbar {
@@ -543,5 +548,11 @@ animation-direction: unset;
     bottom: 165px;
 }
 
+}
+@media (min-width:1095px){
+  .bgimage {
+    width: 1400px;
+    
+  }
 }
 }
