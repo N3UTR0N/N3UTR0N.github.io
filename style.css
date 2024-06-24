@@ -27,8 +27,12 @@
 
 
 .hero_desc {
-    font-size: 2rem;
+    font-size: 4rem;
     font-family: 'Times New Roman', Times, serif;
+    margin-top: 500px;
+    padding-right: 500px;
+    font-weight: bold;
+
 }
 
 
@@ -83,7 +87,7 @@
 .navbar ul {
     float: right;
     font-size: 5px;
-    
+    display: flex;
     
 }
 
@@ -99,18 +103,18 @@
     float: left;
     justify-content: center;
     align-items: center;
+    
 }
 
 
 
 .navbar ul li a {
     color: rgb(255, 245, 245);
-    right:30px;
+    right:110px;
     font-size: 17px;
     border-radius: 3px;
     text-transform: uppercase;
-    animation: glow 1s;
-    margin-left: 0 3px;
+    margin-left:0 3px;
 }
 
 
@@ -183,13 +187,14 @@ a:hover {
     
     .navbar ul li a {
         color: rgb(255, 245, 245);
-        left:163px;
+        left:663px;
         font-size: 17px;
         border-radius: 3px;
         text-transform: uppercase;
         animation: glow 1s ease-in-out infinite alternate;
         margin-left: 0 3px;
-        display: flex;
+        display: inline-flex;
+        
     }
     #check:checked ~ ul {
         display:none;
@@ -201,164 +206,123 @@ a:hover {
     
    
     .bgimage {
-        background-repeat: repeat;
-        position: static;
+        background-repeat: no-repeat;
+        position:absolute;
         background-position: center;
         background-size: cover;
-        width: 1000px;
+        width: 1100px;
        
     }
   
-    
-    @media (max-width:600px){
-       
+    @media (max-width:700px){
+        .bgimage {
+            
+            animation: MyDiv;
+           /* Single animation */
+animation-direction: normal;
+animation-direction: reverse;
+animation-direction: alternate;
+animation-direction: alternate-reverse;
+
+/* Multiple animations */
+animation-direction: normal, reverse;
+animation-direction: alternate, reverse, normal;
+
+/* Global values */
+animation-direction: inherit;
+animation-direction: initial;
+animation-direction: revert;
+
+animation-direction: unset;
+          }
+          
+          @keyframes MyDiv {
+            0%   {left: 0px; top: 0px;}
+            100%  {left: 200px; top: 0px;}
+          }
         
-        }
+            
+        
         .navbar {
-            width: 90%;
-            max-width: fit-content;
+            width: 200px;
+            
             
         }
-       
     
+        
         .navbar ul {
-            position: relative;
-            display: inline;
-            justify-content: space-between;
-            margin-right: 200px;
-            font-family: monospace;
+            float: left;
+            font-size: 5px;
+            margin-right: 500px;
+            
             
         }
+        
+        
+        
         .navbar ul li {
             display: flex;
-            align-items: center;
-        }
-        .navbar ul li a {
-            font-size: 20px;
-            float: right;
-            font-size: 15px;
-            line-height: 1px;
-           
-            top: 60px;
-            
-           
-        }
-        
-        #check:checked ~ ul {
-            display:none;
-        }
-       
-    
-        
-       
-        .bgimage {
-            width: 900px;
-           background-repeat: repeat;
-           box-sizing: border-box;
-            
-        }
-        .hero_title {
-            font-size: 1px;
+            flex-wrap: wrap;
+            line-height: 0;
             color: aliceblue;
+            margin-right: 12px;
+            padding: 10px;
+            float: right;
+            justify-content: center;
+            align-items: center;
             
         }
         
         
         
-        .hero_desc {
-            font-size: 2rem;
-        }
-        
-        
-        
-        
-        .hero-text {
-            text-align: center;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            color: white;
-        }
-        
-        
-        
-        
-        
-        .card-text {
+        .navbar ul li a {
+            color: rgb(255, 245, 245);
+            left:410px;
             font-size: 13px;
+            border-radius: 3px;
+            text-transform: uppercase;
+            display: inline-block;
+            align-items: center;
+            justify-content: space-between;
+            
         }
+        #active {
+            font-size: 15px;
+            margin-left: -770px;
+        }
+        #active2 {
+            font-size: 15px;
+            margin-left: -640px;
+            bottom: 41px;
+        }
+        #active3 {
+            font-size: 15px;
+            margin-left: -480px;
+            bottom: 83px;
+        }
+        #active4 {
+            font-size: 15px;
+            margin-left: -290px;
+            bottom: 124px;
+        }
+        #active5 {
+            font-size: 15px;
+            margin-left: -90px;
+            bottom: 165px;
+        }
+       
         
-        
-        
-    
-        @media (max-width:640px){
-            .bgimage {
-             width:480px;
-             background-repeat: repeat;
-             height: 870px;
-             background-position: bottom;
-             
-            }
-            .hero_title {
-                font-size: 15rem;
-                color: aliceblue;
-               margin-top: 200px;
-               padding-left: 135px;
-            }
-            
-            
-            
-            .hero_desc {
-                font-size: 2.5rem;
-                width: 2px;
-                padding-left: 260px;
-                display: flex;
-                margin-bottom: 190px;
-            }
-            .navbar ul {
-                float: right;
-                font-size: 5px;
-                
-                
-            }
-            
-            
-            
-            .navbar ul li {
-                display: flex;
-                right: 30px;
-                line-height: 40px;
-                color: aliceblue;
-                margin: 3px;
-                padding: 1px;
-                float: left;
-                justify-content: center;
-                align-items: center;
-                font-size: 30px;
-            }
-            
-            
-            
-            .navbar ul li a {
-                color: rgb(255, 245, 245);
-                right:35px;
-                font-size:15px;
-                border-radius: 3px;
-                text-transform: uppercase;
-                animation: glow 1s;
-                margin-left: 3px;
-                top: -1px;
-                width: 70px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-            }
-            
-            
-            
-            
-            
-            
+    @media (min-width:780px){
+        .bgimage {
+            background-repeat: no-repeat;
+            position: relative;
+            background-position: center;
+            width: 980px;
+            display: flex;
+            flex-direction: row;
+           
         }
     }
+    
+}
+}
